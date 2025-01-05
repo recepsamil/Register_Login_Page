@@ -1,0 +1,57 @@
+body{
+    background-color: cornflowerblue;
+}
+.container {
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-check {
+    margin-bottom: 15px;
+}
+
+.butonlar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.butonlar a{
+    margin: 5px;
+    width: 200px;
+    height: 40px;
+}
+
+#girisForm {
+    display: none;
+}
+
+#kayitForm {
+    display: none;
+}
